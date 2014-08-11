@@ -1,0 +1,9 @@
+-- For Maven Resolver--
+PUBLIC "http://www.w3.org/XML/1998/namespace" "maven:com.example.schema:xml!/xml.xsd"
+SYSTEM_SUFFIX "xml.xsd" "maven:com.example.schema:xml!/xml.xsd"
+
+PUBLIC "http://www.w3.org/2000/09/xmldsig#" "maven:com.example.schema:xmldsig-core-schema!/xmldsig-core-schema.xsd"
+SYSTEM_SUFFIX "xmldsig-core-schema.xsd" "maven:com.example.schema:xmldsig-core-schema!/xmldsig-core-schema.xsd"
+
+PUBLIC "http://www.w3.org/2001/04/xmlenc#" "maven:com.example.schema:xenc-schema!/xenc-schema.xsd"
+SYSTEM_SUFFIX "xenc-schema.xsd" "maven:com.example.schema:xenc-schema!/xenc-schema.xsd"
